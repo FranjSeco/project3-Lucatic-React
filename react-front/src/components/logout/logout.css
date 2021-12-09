@@ -1,0 +1,14 @@
+.logout__container {
+  width: 100px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logout__button {
+  background-color: none;
+}
+.logout__button:hover {
+  cursor: pointer;
+}

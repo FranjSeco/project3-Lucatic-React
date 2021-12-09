@@ -1,0 +1,24 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main__separator {
+  width: 2px;
+  height: 210px;
+  background-color: #000;
+}
+
+.main__content-container {
+  width: 100vw;
+  height: 210px;
+  background-color: rgb(105, 206, 74);
+  margin-top: 100px;
+  margin-bottom: -80px;
+  align-self: flex-end;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

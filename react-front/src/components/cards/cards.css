@@ -1,0 +1,141 @@
+.content {
+  box-shadow: 2px 2px 22px 2px rgb(66, 64, 64);
+  border-radius: 20px;
+}
+
+.card {
+  width: 300px;
+  height: 450px;
+  background: linear-gradient(260deg, #ff6036, #fd267a);
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  overflow: hidden;
+}
+
+.card__image-element {
+  width: 300px;
+  height: 100%;
+  object-fit: cover;
+}
+
+.card__image-container {
+  width: 100%;
+  height: 70%;
+  align-self: flex-start;
+}
+
+.card__info-container {
+  width: 300px;
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.card__user-name {
+  font-size: 2rem;
+  margin: 0 0 10px 0;
+  padding: 15px 0 0 15px;
+  color: white;
+}
+
+.card__user-info {
+  font-size: 1rem;
+  margin: 0;
+  padding: 15px 0 0 15px;
+}
+
+.icon-info {
+  font-size: 25px;
+  color: white;
+}
+
+.but {
+  background-color: transparent;
+  border: transparent;
+  margin-top: 0.1vh;
+  margin-right: 1vh;
+  cursor: pointer;
+}
+
+.but:hover {
+  color: #fd267a;
+}
+
+.but-fun {
+  font-size: 30px;
+  background-color: transparent;
+  border: transparent;
+  cursor: pointer;
+}
+
+.but-fun:nth-child(2) {
+  margin-left: 30px;
+}
+.but-fun:hover {
+  transform: scale(1, 1.5);
+}
+
+.dislike {
+  color: #1f60aa;
+  padding: 4px 5px;
+  border-radius: 1em;
+}
+
+.dislike:hover {
+  color: #070833;
+}
+
+.turbo {
+  color: #7826fd;
+  padding: 4px 6px;
+  border-radius: 1em;
+  font-size: 45px;
+}
+
+.turbo:hover {
+  color: #2a0e57;
+}
+
+.superlike {
+  color: #26fdab;
+  padding-bottom: 2px;
+  border-radius: 1em;
+  font-size: 45px;
+}
+
+.superlike:hover {
+  color: #0f5037;
+}
+.like {
+  color: #effd26;
+  padding: 4px 5px;
+  border-radius: 1em;
+}
+
+.like:hover {
+  color: #606613;
+}
+
+.info {
+  scroll-behavior: smooth;
+  background: linear-gradient(260deg, #ff6036, #fd267a);
+  border-radius: 0px;
+  margin-top: -85px;
+  padding: 0px 12px 5px 10px;
+  color: white;
+}
+
+.hobbie {
+  border: solid 2px rgb(80, 74, 74);
+  width: 13vh;
+  text-align: center;
+  border-radius: 20px;
+}
+
+.icons {
+  margin-bottom: 2%;
+}

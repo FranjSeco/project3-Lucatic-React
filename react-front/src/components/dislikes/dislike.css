@@ -1,0 +1,15 @@
+.dislike__container {
+  width: 50%;
+  align-self: flex-start;
+  background-color: yellow;
+}
+
+.dislikes {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+  grid-template-rows: auto(2, 1fr);
+  grid-gap: 16px;
+  margin: 0 auto;
+  place-content: center;
+  background-color: rgb(105, 206, 74);
+}
